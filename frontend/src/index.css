@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+/* 
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif; 
+*/
+
+
+/* //////////////////Header Css //////////////////////////////*/
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid grey !important;
+  padding-block: 8px;
+  padding-inline: 50px ;
+}
+
+.nav-link{
+  color: black !important;
+  font-weight: 400 !important;
+}
+
+/* .active {
+  border-bottom: 2px solid black;
+} */
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  border: none !important;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000000;
+}
+/* //////////////////Page Not Found Css //////////////////////////////*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+/* ///////////////////////////// Contact Us ///////////////////////// */
+
+.contactus{
+  padding-top: 80px;
+}
+
+.container .right{
+  padding-left: 50px !important;
+}
+
+.contactus .right p{
+  font-size: 20px;
+}
+
+
+/* ///////////////////////////// About Us ///////////////////////// */
+
+.aboutus{
+  padding-top: 80px;
+}
+
+.container .right{
+  padding-left: 50px !important;
+}
+
+.aboutus .right p{
+  font-size: 18px;
+}
+
+
+/* ///////////////////////Admin CSS/////////////////// */
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+
+/* product-link */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+
+
+/* Search Page */
+.searchResults{
+  background-color: #212529;
+}
+
+
+/* For Cart Menu */
+a.nav-link {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: 'Poppins';
+}
+
+
+/* Antd Cart Icon */
+:where(.css-dev-only-do-not-override-mxhywb).ant-badge .ant-badge-count, :where(.css-dev-only-do-not-override-mxhywb).ant-badge .ant-badge-dot, :where(.css-dev-only-do-not-override-mxhywb).ant-badge .ant-scroll-number-custom-component {
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  transform: translate(-8%, -50%);
+  transform-origin: 100% 0%;
+}
+
+
+/* Color Badge */
+:where(.css-dev-only-do-not-override-mxhywb).ant-badge .ant-badge-count {
+  z-index: auto;
+  min-width: 20px;
+  height: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  background: #000000;
+  border-radius: 10px;
+}
